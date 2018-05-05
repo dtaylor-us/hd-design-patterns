@@ -1,3 +1,8 @@
+package strategy.duck;
+
+import strategy.duck.behavior.impl.FlyWithWings;
+import strategy.duck.behavior.impl.Quack;
+
 public class MallardDuck extends Duck {
 
     public MallardDuck() {
@@ -6,6 +11,6 @@ public class MallardDuck extends Duck {
     }
 
     public void display() {
-        System.out.println("I’m a real Mallard duck");
+        System.out.println("I’m a real Mallard strategy.duck");
     }
 }

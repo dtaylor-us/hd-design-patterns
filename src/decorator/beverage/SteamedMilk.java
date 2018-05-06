@@ -1,4 +1,4 @@
-package decorator;
+package decorator.beverage;
 
 public class SteamedMilk extends CondimentDecorator {
     Beverage beverage;

@@ -1,4 +1,4 @@
-package decorator;
+package decorator.beverage;
 
 public class StarbucksCoffee {
     public static void main(String[] args) {

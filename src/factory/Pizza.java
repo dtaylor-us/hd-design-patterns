@@ -2,7 +2,7 @@ package factory;
 
 import java.util.ArrayList;
 
-public class Pizza {
+public abstract class Pizza {
     String name;
     String dough;
     String sauce;
@@ -12,19 +12,19 @@ public class Pizza {
         return name;
     }
 
-    public void prepare() {
+    void prepare() {
         System.out.println("Preparing " + name);
     }
 
-    public void bake() {
+    void bake() {
         System.out.println("Baking " + name);
     }
 
-    public void cut() {
+    void cut() {
         System.out.println("Cutting " + name);
     }
 
-    public void box() {
+    void box() {
         System.out.println("Boxing " + name);
     }
 

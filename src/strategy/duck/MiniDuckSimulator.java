@@ -1,9 +1,6 @@
 package strategy.duck;
 
-import strategy.duck.Duck;
 import strategy.duck.behavior.impl.FlyRocketPowered;
-import strategy.duck.MallardDuck;
-import strategy.duck.ModelDuck;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23361294-9e74-4881-8c58-929a3bc44942" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/duck/ModelDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/duck/behavior/impl/FlyRocketPowered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/StatisticsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/duck/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/duck/behavior/FlyBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlyNoWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/duck/behavior/impl/FlyNoWay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/duck/behavior/impl/FlyWithWings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoudQuack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/duck/behavior/impl/LoudQuack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/duck/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiniDuckSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MuteQuack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/duck/behavior/impl/MuteQuack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/duck/behavior/impl/Quack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuackBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/duck/behavior/QuackBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/duck/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/duck/MiniDuckSimulator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,103 +21,86 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="HF_DP" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ModelDuck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/duck/ModelDuck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlyWithWings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/FlyWithWings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MallardDuck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/duck/MallardDuck.java">
+      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlyRocketPowered.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/FlyRocketPowered.java">
+      <file leaf-file-name="DisplayElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/DisplayElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/WeatherData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6">
+              <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
               <folding>
-                <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/Quack.java">
+      <file leaf-file-name="CurrentConditionsDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/CurrentConditionsDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#69#70#0" expanded="true" />
-                <element signature="e#118#119#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="131">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlyBehavior.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/duck/behavior/FlyBehavior.java">
+      <file leaf-file-name="StatisticsDisplay.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/observer/StatisticsDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="357">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlyNoWay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/FlyNoWay.java">
+      <file leaf-file-name="WeatherStation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/WeatherStation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuackBehavior.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/duck/behavior/QuackBehavior.java">
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="134">
+              <caret line="1392" column="19" selection-start-line="1392" selection-start-column="19" selection-end-line="1392" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MuteQuack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/MuteQuack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoudQuack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/LoudQuack.java">
+        <entry file="file://$PROJECT_DIR$/src/strategy/duck/behavior/impl/MuteQuack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -137,6 +117,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>%</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -172,10 +157,20 @@
         <option value="$PROJECT_DIR$/src/MallardDuck.java" />
         <option value="$PROJECT_DIR$/src/ModelDuck.java" />
         <option value="$PROJECT_DIR$/src/FlyRocketPowered.java" />
-        <option value="$PROJECT_DIR$/src/MiniDuckSimulator.java" />
         <option value="$PROJECT_DIR$/src/Duck.java" />
         <option value="$PROJECT_DIR$/src/duck/Duck.java" />
         <option value="$PROJECT_DIR$/src/duck/MallardDuck.java" />
+        <option value="$PROJECT_DIR$/src/duck/behavior/impl/Quack.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/behavior/impl/Quack.java" />
+        <option value="$PROJECT_DIR$/src/MiniDuckSimulator.java" />
+        <option value="$PROJECT_DIR$/src/strategy/duck/MiniDuckSimulator.java" />
+        <option value="$PROJECT_DIR$/src/observer/Subject.java" />
+        <option value="$PROJECT_DIR$/src/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/observer/DisplayElement.java" />
+        <option value="$PROJECT_DIR$/src/observer/WeatherStation.java" />
+        <option value="$PROJECT_DIR$/src/observer/WeatherData.java" />
+        <option value="$PROJECT_DIR$/src/observer/CurrentConditionsDisplay.java" />
+        <option value="$PROJECT_DIR$/src/observer/StatisticsDisplay.java" />
       </list>
     </option>
   </component>
@@ -189,7 +184,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="22" />
+    <option name="y" value="302" />
     <option name="width" value="1280" />
     <option name="height" value="778" />
   </component>
@@ -234,6 +229,12 @@
               <item name="HF_DP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HF_DP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HF_DP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -245,17 +246,19 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="observer" />
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -274,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MiniDuckSimulator">
+  <component name="RunManager" selected="Application.WeatherStation">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -293,6 +296,17 @@
       <option name="MAIN_CLASS_NAME" value="strategy.duck.MiniDuckSimulator" />
       <module name="HF_DP" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.WeatherStation" />
+      <module name="HF_DP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -351,9 +365,11 @@
     <list>
       <item itemvalue="Application.DuckTestDrive" />
       <item itemvalue="Application.MiniDuckSimulator" />
+      <item itemvalue="Application.WeatherStation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.MiniDuckSimulator" />
         <item itemvalue="Application.DuckTestDrive" />
       </list>
@@ -373,12 +389,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525497793436</updated>
-      <workItem from="1525497795358" duration="2399000" />
+      <workItem from="1525497795358" duration="7602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2399000" />
+    <option name="totallyTimeSpent" value="7602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="778" extended-state="6" />
@@ -391,7 +407,7 @@
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" sideWeight="0.20212767" side_tool="true" visible="true" weight="0.3723748" />
+      <window_info id="Structure" order="1" sideWeight="0.20181406" side_tool="true" weight="0.3723748" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -401,13 +417,14 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14741641" />
+      <window_info anchor="right" x="0" y="0" width="270" height="578" id="Documentation" side_tool="true" weight="0.32956383" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52431613" />
       <window_info anchor="bottom" id="Version Control" weight="0.32978722" />
       <window_info anchor="bottom" id="Terminal" weight="0.32978722" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79787236" visible="true" weight="0.3723748" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6122449" visible="true" weight="0.3723748" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" sideWeight="0.3877551" side_tool="true" weight="0.3723748" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -454,33 +471,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MiniDuckSimulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/duck/Duck.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/Duck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/duck/ModelDuck.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/ModelDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -491,35 +489,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/duck/MallardDuck.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/MallardDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/duck/behavior/FlyBehavior.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/behavior/FlyBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/duck/behavior/QuackBehavior.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/behavior/QuackBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/FlyNoWay.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/behavior/impl/FlyNoWay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/FlyRocketPowered.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/behavior/impl/FlyRocketPowered.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -530,35 +528,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/FlyWithWings.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/behavior/impl/FlyWithWings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/LoudQuack.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/behavior/impl/LoudQuack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/MuteQuack.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/behavior/impl/MuteQuack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/duck/behavior/impl/Quack.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="134">
+          <caret line="1392" column="19" selection-start-line="1392" selection-start-column="19" selection-end-line="1392" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/MiniDuckSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/duck/behavior/impl/Quack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#69#70#0" expanded="true" />
             <element signature="e#118#119#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/DisplayElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/CurrentConditionsDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/StatisticsDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
         </state>
       </provider>
     </entry>

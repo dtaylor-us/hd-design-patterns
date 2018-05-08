@@ -1,6 +1,6 @@
-package strategy.duck.behavior.impl;
+package strategy.behavior.impl;
 
-import strategy.duck.behavior.FlyBehavior;
+import strategy.behavior.FlyBehavior;
 
 public class FlyRocketPowered implements FlyBehavior {
     public void fly() {

@@ -1,5 +1,10 @@
 package factory;
 
+import factory.factory.method.ChicagoPizzaStore;
+import factory.factory.method.NYPizzaStore;
+import factory.factory.method.Pizza;
+import factory.factory.method.PizzaStore;
+
 public class PizzaTestDrive {
     public static void main(String[] args) {
         PizzaStore nyStore = new NYPizzaStore();
